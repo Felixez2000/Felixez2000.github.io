@@ -1,0 +1,254 @@
+html {
+  scroll-behavior: smooth;
+  font-size: 10px;
+}
+body {
+  height: 100vh;
+  width: 100%;
+}
+.btn_orange {
+  padding: 1.5rem 3rem;
+  background-color: #ff4e2e;
+  border: none;
+  color: black;
+  font-size: 2.3rem;
+}
+.btn_orange:active {
+  background-color: #fa2600;
+}
+.btn_orange:focus {
+  outline: none;
+}
+.btn_call {
+  display: inline-block;
+  color: black;
+  padding: 1rem 2rem;
+  background: transparent;
+  border: 1px solid #ff4e2e;
+  font-size: 2.2rem;
+  font-family: cursive;
+}
+.btn_call:hover {
+  background-color: #ff4e2e;
+  transition: ease-in 0.4s all;
+}
+.btn_call:focus {
+  outline: none;
+}
+.main {
+  background-color: #9370DB;
+}
+.main-header-menu {
+  padding: 2rem 0;
+}
+.main-header-menu a {
+  margin: 0 0.5rem;
+  color: #1f1f24;
+  font-family: cursive;
+  font-size: 2rem;
+}
+.main-header-menu a:hover {
+  text-decoration: none;
+  color: #1f1f24;
+  color: red;
+  border-bottom: 1px solid;
+}
+.main-header-menu a:hover:focus {
+  color: red;
+  border-bottom: 1px solid;
+}
+.main-header-contacts {
+  padding: 2rem 0;
+}
+.main-header-contacts a {
+  margin-right: 1rem;
+  color: black;
+  font-size: 2rem;
+  font-weight: 700;
+  font-family: cursive;
+}
+.main-header-contacts a:hover {
+  color: red;
+  border-bottom: 1px solid;
+  text-decoration: none;
+}
+.main-content-text {
+  margin-top: 10rem;
+  margin-bottom: 2rem;
+}
+.main-content-text h1 {
+  font-size: 7rem;
+  font-weight: 700;
+  color: #1f1f24;
+  font-family: cursive;
+}
+.main-content-text p {
+  font-size: 2rem;
+  font-family: cursive;
+  font-weight: 500;
+}
+.work {
+  padding: 8rem 0;
+}
+.work-header h2 {
+  color: #262626;
+  font-size: 5.4rem;
+  font-weight: 700;
+  font-family: cursive;
+}
+.work-content {
+  padding: 9rem 0;
+}
+.work-content-block {
+  margin-top: 5rem;
+}
+.work-content-block p {
+  padding: 1.2rem;
+  font-family: cursive;
+  font-size: 1.8rem;
+  color: #8993ad;
+}
+.portfolio {
+  padding: 6rem 0;
+}
+.portfolio-header h2 {
+  color: #262626;
+  font-size: 5.4rem;
+  font-weight: 700;
+  font-family: cursive;
+}
+.portfolio .btn_orange {
+  margin-bottom: 5rem;
+}
+.portfolio-content-block {
+  margin: 4.2rem 0;
+}
+.portfolio-content-block p {
+  padding: 1.2rem;
+  font-family: cursive;
+  font-size: 1.8rem;
+  color: #8993ad;
+}
+.adaptive {
+  padding: 8rem 0rem;
+  margin-top: 3rem;
+  background-color: #ff4e2e;
+}
+.adaptive-header {
+  margin-left: 7rem;
+}
+.adaptive-header h3 {
+  color: white;
+  font-family: monospace;
+  font-size: 4rem;
+  font-weight: 700;
+}
+.adaptive-header p {
+  color: white;
+  font-family: cursive;
+  font-weight: 400;
+  font-size: 1.8rem;
+}
+.contacts {
+  padding: 3rem 0;
+}
+.contacts a {
+  display: inline-block;
+}
+.contacts-menu a {
+  display: inline-block;
+  font-size: 2rem;
+  color: #8993ad;
+}
+.contacts-menu a:hover {
+  text-decoration: none;
+  color: #ff4e2e;
+  border-bottom: 1px solid;
+}
+.contacts_link a {
+  margin-top: 1.3rem;
+  font-size: 1.5rem;
+  color: #1f1f24;
+  text-decoration: none;
+}
+.contacts_link a:hover {
+  text-decoration: none;
+  color: #1f1f24;
+  color: red;
+  border-bottom: 1px solid;
+}
+.contacts_link a:hover:focus {
+  color: red;
+  border-bottom: 1px solid;
+}
+.contacts button {
+  display: block;
+}
+.contacts .social_link:nth-child(3) {
+  margin-left: 5.8rem;
+}
+.contacts .social_link:nth-child(4) {
+  margin-left: 5.8rem;
+}
+.contacts i {
+  margin-top: 1.5rem;
+  font-size: 3rem;
+  color: black;
+}
+footer {
+  padding: 3rem 0;
+  color: white;
+  font-size: 20px;
+  background-color: #31293c;
+}
+@media (max-width: 991px) {
+  .main-header-menu {
+    text-align: center;
+  }
+  .main-header-contacts {
+    text-align: center;
+  }
+  .main-header-contacts a {
+    display: block;
+    margin-bottom: 1rem;
+  }
+  .main-content {
+    text-align: center;
+  }
+  .main img {
+    border: black 3px solid;
+    margin-top: 2rem;
+  }
+  .work-content-block {
+    border: 3px solid orangered;
+    padding: 2rem;
+  }
+  .portfolio {
+    text-align: center;
+  }
+  .adaptive-header h3 {
+    font-size: 3rem;
+    text-align: justify;
+  }
+  .adaptive-header p {
+    font-size: 1.4rem;
+    text-align: justify;
+  }
+  .contacts-menu {
+    text-align: center;
+  }
+  .contacts-menu a {
+    margin: 0 2rem;
+    display: inline-block;
+  }
+  .contacts_link {
+    text-align: center;
+    margin: 2rem 0;
+  }
+  .contacts .social {
+    text-align: center;
+  }
+  .contacts .social button {
+    margin: auto;
+  }
+}
